@@ -1,0 +1,1336 @@
+{
+  "schemaVersion": 1,
+  "release": "kaikki-2026.09.05",
+  "releaseDate": "2026-09-05",
+  "kind": "advanced-technical-dictionary-series",
+  "seriesID": "dictionary-kaikki-sha256-64-v1",
+  "format": "wordbee",
+  "formatVersion": 1,
+  "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+  "defaultEnabled": false,
+  "recommendedForManualFullInstallation": false,
+  "installationStatus": "Technical distribution series. Complete-million-entry SwiftData import, device memory and app interaction performance have not been accepted. Do not require users to install or sort 64 dictionaries manually.",
+  "license": "CC BY-SA 4.0 (eligible Wiktionary original lexicographic text only)",
+  "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "copyrightURL": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+  "attribution": "Wiktionary contributors; structured with Wiktextract by Tatu Ylonen and contributors; converted to WordBee schemaVersion 1. Adapted dictionary data retains CC BY-SA 4.0.",
+  "sourceVersion": {
+    "wiktionaryDumpDate": "2026-08-05",
+    "wiktextractExtractionDate": "2026-08-28"
+  },
+  "sourceArtifact": {
+    "file": "raw-wiktextract-data.jsonl.gz",
+    "bytes": 2826623319,
+    "sha256": "4c27d202e875550c2cc7ea93a4d21ddf80440e5030606d3edbb8b0e65dc64006",
+    "url": "https://kaikki.org/dictionary/raw-wiktextract-data.jsonl.gz",
+    "lastModified": "Fri, 28 Aug 2026 10:44:19 GMT"
+  },
+  "partitionCount": 64,
+  "entryCount": 1347885,
+  "candidateCount": 1487171,
+  "excludedRecordCount": 468,
+  "bytes": 109219455,
+  "manifestBytes": 689402030,
+  "audioIncluded": false,
+  "examplesIncluded": false,
+  "exclusions": "All examples, quotations, media files and audio URLs are excluded. 468 pure-symbol, braille or punctuation records normalize to an empty identity and are enumerated separately. No ordinary word or phrase is silently truncated.",
+  "contentReview": "Generic community dictionary contains rare, obsolete and sensitive vocabulary. Licensing verification is not correctness or child-suitability review. Regional IPA mapping is not independently quality-assured.",
+  "noticeFiles": [
+    {
+      "file": "assets/licenses/1-CC-BY-SA-4.0-legalcode.txt",
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    {
+      "file": "assets/licenses/2-Wiktionary-Copyrights.html",
+      "sha256": "b48a0c51776391ab168faf297818ad188a4c74b749e331c84a3c8ad0f7f673f5"
+    }
+  ],
+  "auditFiles": {
+    "excludedRecords": "excluded-spelling-records.jsonl",
+    "excludedRecordsSHA256": "45069199b20a36e69bd5bdbfab516846039913af3ca68ca478a366cfd9bfd7cd",
+    "nativeValidation": "validation-native.json",
+    "checksums": "SHA256SUMS.txt"
+  },
+  "packages": [
+    {
+      "id": "dictionary-kaikki-shard-00",
+      "dictionaryID": "kaikki-shard-00",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-00-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1733926,
+      "sha256": "af794968f92429782c285d2a2c8dfa611eaa6905f29097059ec5d211566a5020",
+      "entryCount": 21207,
+      "candidateCount": 23480,
+      "manifestBytes": 10911060,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 0,
+        "key": "00"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-00-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-00-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-01",
+      "dictionaryID": "kaikki-shard-01",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-01-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1730281,
+      "sha256": "7adf2e1e93ae09051d971c56ef1ab79a319ff4219cf6612562ac931e8aa2b7f9",
+      "entryCount": 21184,
+      "candidateCount": 23541,
+      "manifestBytes": 10926768,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 1,
+        "key": "01"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-01-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-01-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-02",
+      "dictionaryID": "kaikki-shard-02",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-02-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1711131,
+      "sha256": "279cbebc7272428b1e8116792b351b2d052086826333eef8359fc712b9544a3d",
+      "entryCount": 21065,
+      "candidateCount": 23237,
+      "manifestBytes": 10801676,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 2,
+        "key": "02"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-02-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-02-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-03",
+      "dictionaryID": "kaikki-shard-03",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-03-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1721159,
+      "sha256": "f239dd0f0a246429ed5a68567459fce71f12b4fc6baf1c7d51fd6b67b85f7eb9",
+      "entryCount": 21052,
+      "candidateCount": 23276,
+      "manifestBytes": 10826640,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 3,
+        "key": "03"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-03-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-03-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-04",
+      "dictionaryID": "kaikki-shard-04",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-04-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1706798,
+      "sha256": "4dde65fb6f880dd354552fe61720c4dd6d114deb98f3215e3f0ab66e1c9b56bc",
+      "entryCount": 20931,
+      "candidateCount": 23093,
+      "manifestBytes": 10754833,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 4,
+        "key": "04"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-04-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-04-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-05",
+      "dictionaryID": "kaikki-shard-05",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-05-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1721184,
+      "sha256": "611a67627abd113e99c8e96d91549d440de50967191aa0ef4a515ea6e3681653",
+      "entryCount": 21264,
+      "candidateCount": 23381,
+      "manifestBytes": 10883020,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 5,
+        "key": "05"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-05-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-05-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-06",
+      "dictionaryID": "kaikki-shard-06",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-06-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1718629,
+      "sha256": "39b8c3f2474f3cb2d50db13e8d12e8779eee3ae94ed06b1b3e9ed5690190307c",
+      "entryCount": 21106,
+      "candidateCount": 23375,
+      "manifestBytes": 10839300,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 6,
+        "key": "06"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-06-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-06-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-07",
+      "dictionaryID": "kaikki-shard-07",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-07-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1675831,
+      "sha256": "748ea7a18d17c682ca449a45d5a9cf1ff594cd220cb150d6950123937025a1fc",
+      "entryCount": 20989,
+      "candidateCount": 23092,
+      "manifestBytes": 10631304,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 7,
+        "key": "07"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-07-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-07-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-08",
+      "dictionaryID": "kaikki-shard-08",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-08-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1692233,
+      "sha256": "9e06fbc7948c3d5d348e1fa6e3a70d0a6a3bea7a2f94552a935c723131d213aa",
+      "entryCount": 21095,
+      "candidateCount": 23262,
+      "manifestBytes": 10721830,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 8,
+        "key": "08"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-08-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-08-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-09",
+      "dictionaryID": "kaikki-shard-09",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-09-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1711860,
+      "sha256": "7d2994b3e758177b93fac2e24415d221ce55769120adc570f3919d4d31664025",
+      "entryCount": 21241,
+      "candidateCount": 23362,
+      "manifestBytes": 10815056,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 9,
+        "key": "09"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-09-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-09-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-0a",
+      "dictionaryID": "kaikki-shard-0a",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-0a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1718758,
+      "sha256": "c3c0955a79a181b67e73e32ce89b79a9fd6ab34aa30b2b180d5609917506b440",
+      "entryCount": 21053,
+      "candidateCount": 23193,
+      "manifestBytes": 10812224,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 10,
+        "key": "0a"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-0b",
+      "dictionaryID": "kaikki-shard-0b",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-0b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1718935,
+      "sha256": "b5eef87c444658954e385923a921fa2747d0b0068a6a097b9b7667b28b2023c8",
+      "entryCount": 20983,
+      "candidateCount": 23192,
+      "manifestBytes": 10819774,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 11,
+        "key": "0b"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-0c",
+      "dictionaryID": "kaikki-shard-0c",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-0c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1705864,
+      "sha256": "e888b6a2b223b133efcf4fbfa41aaa4ac8d768b1b8ffc58e74f5ef48a916b869",
+      "entryCount": 21058,
+      "candidateCount": 23318,
+      "manifestBytes": 10782670,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 12,
+        "key": "0c"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-0d",
+      "dictionaryID": "kaikki-shard-0d",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-0d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1713638,
+      "sha256": "016484bbd56c004585c0c4b41d97362afd2420e7b06dd07574dceb72de7d3e39",
+      "entryCount": 21132,
+      "candidateCount": 23266,
+      "manifestBytes": 10804961,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 13,
+        "key": "0d"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-0e",
+      "dictionaryID": "kaikki-shard-0e",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-0e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1716638,
+      "sha256": "b1809a0e70293e990442dfcc805783f95de5fb8cd9b040401a691a54cf5a9b48",
+      "entryCount": 21310,
+      "candidateCount": 23491,
+      "manifestBytes": 10852781,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 14,
+        "key": "0e"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-0f",
+      "dictionaryID": "kaikki-shard-0f",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-0f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1721296,
+      "sha256": "672c4df98eedce4ecb9e067fa553fb722f9630c4f8fd76ab6f5b322ad54cb76b",
+      "entryCount": 21042,
+      "candidateCount": 23279,
+      "manifestBytes": 10827781,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 15,
+        "key": "0f"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-10",
+      "dictionaryID": "kaikki-shard-10",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-10-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1708422,
+      "sha256": "77525cae85554a43fde9fbef89c9c0f679dee83dd97890093a00e863d52a86d6",
+      "entryCount": 20831,
+      "candidateCount": 22975,
+      "manifestBytes": 10732322,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 16,
+        "key": "10"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-10-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-10-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-11",
+      "dictionaryID": "kaikki-shard-11",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-11-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1712190,
+      "sha256": "9f177727b9c7fc811e4ee2af39f6f221f5d6a8f8a0c1c1c5070447c87c307104",
+      "entryCount": 20933,
+      "candidateCount": 23094,
+      "manifestBytes": 10749537,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 17,
+        "key": "11"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-11-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-11-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-12",
+      "dictionaryID": "kaikki-shard-12",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-12-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1705006,
+      "sha256": "5855dd8088ed90c623bf7cd73a9ddd43d0e4ad8ebac5960e94b95e4ca9ae8f14",
+      "entryCount": 20961,
+      "candidateCount": 23116,
+      "manifestBytes": 10723089,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 18,
+        "key": "12"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-12-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-12-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-13",
+      "dictionaryID": "kaikki-shard-13",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-13-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1701981,
+      "sha256": "e727a45533cae0ff33ddaf726602829d81f69139f3835be6292c3cdff0300e4a",
+      "entryCount": 20925,
+      "candidateCount": 23060,
+      "manifestBytes": 10700425,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 19,
+        "key": "13"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-13-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-13-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-14",
+      "dictionaryID": "kaikki-shard-14",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-14-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1701306,
+      "sha256": "d85e0793ac95d7d41e40341c60711b62afa3f60b2f7ee9d058e11af338b5918f",
+      "entryCount": 21163,
+      "candidateCount": 23277,
+      "manifestBytes": 10767843,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 20,
+        "key": "14"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-14-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-14-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-15",
+      "dictionaryID": "kaikki-shard-15",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-15-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1698359,
+      "sha256": "b04f8fb7ed730a7200cb9f18c7e748f57fd6398c355c1edd19488c0a8dcf5da1",
+      "entryCount": 20975,
+      "candidateCount": 23131,
+      "manifestBytes": 10720745,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 21,
+        "key": "15"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-15-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-15-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-16",
+      "dictionaryID": "kaikki-shard-16",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-16-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1702389,
+      "sha256": "ee4ad50f699a4e6b36281e764eb0c5f76e0f59cbfabc1ad8f25bbbf63f8d6489",
+      "entryCount": 21221,
+      "candidateCount": 23391,
+      "manifestBytes": 10797798,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 22,
+        "key": "16"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-16-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-16-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-17",
+      "dictionaryID": "kaikki-shard-17",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-17-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1677336,
+      "sha256": "d4b653fda95c59f114e8e5a98cc04611746c7b21cb45bcb4b57b301c48605b33",
+      "entryCount": 20988,
+      "candidateCount": 23093,
+      "manifestBytes": 10666125,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 23,
+        "key": "17"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-17-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-17-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-18",
+      "dictionaryID": "kaikki-shard-18",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-18-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1697406,
+      "sha256": "7965df11b5b733f249556c497806e3b07e8c9b071adf03735fe4bada72faf8cf",
+      "entryCount": 21035,
+      "candidateCount": 23292,
+      "manifestBytes": 10744660,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 24,
+        "key": "18"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-18-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-18-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-19",
+      "dictionaryID": "kaikki-shard-19",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-19-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1705750,
+      "sha256": "aba3e61b70e0b420ab85c3319f023bbd57ae0bf561d97b26d1dc5301219d4d50",
+      "entryCount": 21182,
+      "candidateCount": 23408,
+      "manifestBytes": 10804080,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 25,
+        "key": "19"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-19-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-19-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-1a",
+      "dictionaryID": "kaikki-shard-1a",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-1a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1674307,
+      "sha256": "09d2509ffa0e695bf4e01706b8f7e10fbcc7d800ddd31ad1f2c2b78101c14d45",
+      "entryCount": 20953,
+      "candidateCount": 23098,
+      "manifestBytes": 10627931,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 26,
+        "key": "1a"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-1b",
+      "dictionaryID": "kaikki-shard-1b",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-1b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1709890,
+      "sha256": "5714c8a573db69d3a55a1edbf70178067e560eeb2d323cecb08e5157f8e1c6f0",
+      "entryCount": 21121,
+      "candidateCount": 23313,
+      "manifestBytes": 10780080,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 27,
+        "key": "1b"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-1c",
+      "dictionaryID": "kaikki-shard-1c",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-1c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1709937,
+      "sha256": "78c6bc6e3884c0eb103a7bba479c41893f1907a469567fc425d3c7789a09a67b",
+      "entryCount": 20972,
+      "candidateCount": 23127,
+      "manifestBytes": 10774741,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 28,
+        "key": "1c"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-1d",
+      "dictionaryID": "kaikki-shard-1d",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-1d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1701839,
+      "sha256": "52f3b72c695c0a884ec16c5536d4e9260dd94413ec9cf71a81e4d3d1988bb53b",
+      "entryCount": 20783,
+      "candidateCount": 22932,
+      "manifestBytes": 10692227,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 29,
+        "key": "1d"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-1e",
+      "dictionaryID": "kaikki-shard-1e",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-1e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1674087,
+      "sha256": "3ed2ecf67a94a1b101374774bbd7af6e59647b4d77d3a3e52af2638565e2145c",
+      "entryCount": 20833,
+      "candidateCount": 23090,
+      "manifestBytes": 10626688,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 30,
+        "key": "1e"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-1f",
+      "dictionaryID": "kaikki-shard-1f",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-1f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1708049,
+      "sha256": "cd645281d585e8d4bcec33b7305776be7ab611695626cbc327725030445e837c",
+      "entryCount": 21059,
+      "candidateCount": 23182,
+      "manifestBytes": 10756905,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 31,
+        "key": "1f"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-20",
+      "dictionaryID": "kaikki-shard-20",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-20-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1710798,
+      "sha256": "48002ea0e141692a6abaa98adbd2f28d7cc41187c0052d42717df3c76149efb7",
+      "entryCount": 21032,
+      "candidateCount": 23267,
+      "manifestBytes": 10789986,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 32,
+        "key": "20"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-20-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-20-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-21",
+      "dictionaryID": "kaikki-shard-21",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-21-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1699695,
+      "sha256": "846bb8010770d79b4b82872f6cbef25acfd40adf4655f2b243bd4f08ed4da8a7",
+      "entryCount": 21266,
+      "candidateCount": 23454,
+      "manifestBytes": 10778238,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 33,
+        "key": "21"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-21-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-21-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-22",
+      "dictionaryID": "kaikki-shard-22",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-22-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1693154,
+      "sha256": "b6347025c914a4aa27ee1871a7eab58a27fc6ada94f3d708e618d1a99eafe9e9",
+      "entryCount": 20937,
+      "candidateCount": 23094,
+      "manifestBytes": 10684690,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 34,
+        "key": "22"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-22-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-22-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-23",
+      "dictionaryID": "kaikki-shard-23",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-23-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1703505,
+      "sha256": "cb4e4c2407a4c3369cb8510de03be8d7e5514ebf1dd9078677b043d33834ddd2",
+      "entryCount": 21071,
+      "candidateCount": 23297,
+      "manifestBytes": 10779752,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 35,
+        "key": "23"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-23-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-23-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-24",
+      "dictionaryID": "kaikki-shard-24",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-24-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1706603,
+      "sha256": "d308914b2e133edab7177cbb6d99523ee80cf9d7f3c6cfd034ac5d9d949af27d",
+      "entryCount": 21003,
+      "candidateCount": 23146,
+      "manifestBytes": 10748421,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 36,
+        "key": "24"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-24-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-24-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-25",
+      "dictionaryID": "kaikki-shard-25",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-25-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1731036,
+      "sha256": "f2a02bb9b75985e75a095986a53c7e9500781a5fb219da824834bef99353a72b",
+      "entryCount": 21213,
+      "candidateCount": 23429,
+      "manifestBytes": 10880870,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 37,
+        "key": "25"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-25-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-25-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-26",
+      "dictionaryID": "kaikki-shard-26",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-26-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1705223,
+      "sha256": "d1df84d01799d8e495a9e579324741021864c58e70dff3e48932f54d7e8bd3f2",
+      "entryCount": 21032,
+      "candidateCount": 23197,
+      "manifestBytes": 10775319,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 38,
+        "key": "26"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-26-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-26-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-27",
+      "dictionaryID": "kaikki-shard-27",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-27-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1678220,
+      "sha256": "ea3ebcff43a237fe66f5129e002ae609de6262ed91f654782fbb296bb67f3d29",
+      "entryCount": 21025,
+      "candidateCount": 23076,
+      "manifestBytes": 10642804,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 39,
+        "key": "27"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-27-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-27-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-28",
+      "dictionaryID": "kaikki-shard-28",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-28-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1692955,
+      "sha256": "7dcfb433033bedc65098046ac90ced8f9a879e54374e19d757f8335056fa524b",
+      "entryCount": 20833,
+      "candidateCount": 23071,
+      "manifestBytes": 10678406,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 40,
+        "key": "28"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-28-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-28-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-29",
+      "dictionaryID": "kaikki-shard-29",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-29-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1714739,
+      "sha256": "06dfb63f466608c2275027f78208de057534107ff6c10bf10c266c9c75a59523",
+      "entryCount": 20920,
+      "candidateCount": 23144,
+      "manifestBytes": 10791998,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 41,
+        "key": "29"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-29-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-29-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-2a",
+      "dictionaryID": "kaikki-shard-2a",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-2a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1729442,
+      "sha256": "3229d0b285f1c56274504f65c50776bc2ec59aed74a05bdfb0abd307ce63d877",
+      "entryCount": 21087,
+      "candidateCount": 23368,
+      "manifestBytes": 10880514,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 42,
+        "key": "2a"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-2b",
+      "dictionaryID": "kaikki-shard-2b",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-2b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1680089,
+      "sha256": "116378cbc08beff069399163a283d67620755d21467d7e28bcf58df8ec0c244e",
+      "entryCount": 20854,
+      "candidateCount": 22984,
+      "manifestBytes": 10624897,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 43,
+        "key": "2b"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-2c",
+      "dictionaryID": "kaikki-shard-2c",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-2c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1697871,
+      "sha256": "ce917d07c37262e813a5f96c61bb99f211dc6ed06784265461b8079b79913b73",
+      "entryCount": 20930,
+      "candidateCount": 23029,
+      "manifestBytes": 10703311,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 44,
+        "key": "2c"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-2d",
+      "dictionaryID": "kaikki-shard-2d",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-2d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1717217,
+      "sha256": "f3f9afa1954fe6a4c404efc46b117e0d1949fbf9fd02c2895d7cd7a3d485d593",
+      "entryCount": 21218,
+      "candidateCount": 23403,
+      "manifestBytes": 10848237,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 45,
+        "key": "2d"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-2e",
+      "dictionaryID": "kaikki-shard-2e",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-2e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1692485,
+      "sha256": "5131e5eaba5a3299eb2210a5b9bde26dff2eee51123674ceed76446544a56c8b",
+      "entryCount": 21109,
+      "candidateCount": 23213,
+      "manifestBytes": 10730509,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 46,
+        "key": "2e"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-2f",
+      "dictionaryID": "kaikki-shard-2f",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-2f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1705409,
+      "sha256": "c549694e53c197f74ed9b3e03401d5591e2a46ebb3f658342067a4d229d595b5",
+      "entryCount": 21131,
+      "candidateCount": 23230,
+      "manifestBytes": 10776349,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 47,
+        "key": "2f"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-30",
+      "dictionaryID": "kaikki-shard-30",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-30-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1709300,
+      "sha256": "5f1d6e2d721c88a08d1db5440ee19f272be19b5a506a9479b43a08dac0c2cd49",
+      "entryCount": 20844,
+      "candidateCount": 22955,
+      "manifestBytes": 10707159,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 48,
+        "key": "30"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-30-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-30-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-31",
+      "dictionaryID": "kaikki-shard-31",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-31-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1716535,
+      "sha256": "ccb5b23b79d4a1139e71d84888b7b6160bc2afc347e36a2952180dbc550b1982",
+      "entryCount": 21040,
+      "candidateCount": 23172,
+      "manifestBytes": 10783531,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 49,
+        "key": "31"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-31-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-31-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-32",
+      "dictionaryID": "kaikki-shard-32",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-32-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1732216,
+      "sha256": "37f8d95d345d80ec90d20fbacdf46cf2f2c5be80465b74e1a4a05a00bed8d6de",
+      "entryCount": 21105,
+      "candidateCount": 23384,
+      "manifestBytes": 10885772,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 50,
+        "key": "32"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-32-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-32-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-33",
+      "dictionaryID": "kaikki-shard-33",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-33-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1701842,
+      "sha256": "f4d0461318bbf9ad8754d87f21f5255b32c1c85a0072d0693321299a1ec2fb2f",
+      "entryCount": 21056,
+      "candidateCount": 23274,
+      "manifestBytes": 10734126,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 51,
+        "key": "33"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-33-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-33-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-34",
+      "dictionaryID": "kaikki-shard-34",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-34-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1701949,
+      "sha256": "4d6e2cf5e3c3452b8329c316bd69fb989e17739462d1a8a08fd0d63ad41147e4",
+      "entryCount": 21040,
+      "candidateCount": 23250,
+      "manifestBytes": 10750016,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 52,
+        "key": "34"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-34-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-34-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-35",
+      "dictionaryID": "kaikki-shard-35",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-35-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1711295,
+      "sha256": "eb8693c0cdbe005dc531ccce04ad690718e9f30151412fca3d1859c1b7d02fad",
+      "entryCount": 21191,
+      "candidateCount": 23329,
+      "manifestBytes": 10819293,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 53,
+        "key": "35"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-35-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-35-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-36",
+      "dictionaryID": "kaikki-shard-36",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-36-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1703444,
+      "sha256": "a6817649fc55e06fb34a48e829e7da633cb3d7a470e7bed3bc1029a68786194e",
+      "entryCount": 21037,
+      "candidateCount": 23122,
+      "manifestBytes": 10720802,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 54,
+        "key": "36"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-36-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-36-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-37",
+      "dictionaryID": "kaikki-shard-37",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-37-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1717138,
+      "sha256": "f8da6824b81724b45efd1b746bc633f4e4a5725dffee107252282dfcec4e82cf",
+      "entryCount": 21091,
+      "candidateCount": 23326,
+      "manifestBytes": 10860981,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 55,
+        "key": "37"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-37-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-37-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-38",
+      "dictionaryID": "kaikki-shard-38",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-38-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1685737,
+      "sha256": "f49c1ef5939e3edd587811a7174d5ca2139dd3aee014ac793839d35023dae952",
+      "entryCount": 21051,
+      "candidateCount": 23284,
+      "manifestBytes": 10720096,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 56,
+        "key": "38"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-38-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-38-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-39",
+      "dictionaryID": "kaikki-shard-39",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-39-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1680816,
+      "sha256": "1b598d8144fc01a63cce92aba15af55e907eba580534644c24b4e1ccf6cdf92c",
+      "entryCount": 20913,
+      "candidateCount": 22952,
+      "manifestBytes": 10628518,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 57,
+        "key": "39"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-39-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-39-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-3a",
+      "dictionaryID": "kaikki-shard-3a",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-3a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1702230,
+      "sha256": "74fa7d5b09389aded98d1615b86672ea2c80e7933af403474739627537e7ca4d",
+      "entryCount": 21052,
+      "candidateCount": 23257,
+      "manifestBytes": 10757842,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 58,
+        "key": "3a"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-3b",
+      "dictionaryID": "kaikki-shard-3b",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-3b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1723379,
+      "sha256": "021071a91daf3c20841ca97f0edd214b0ffbb885c28a26c9c85c83174844557a",
+      "entryCount": 21162,
+      "candidateCount": 23320,
+      "manifestBytes": 10825888,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 59,
+        "key": "3b"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-3c",
+      "dictionaryID": "kaikki-shard-3c",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-3c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1687759,
+      "sha256": "c1c851c706cce7f16bd3bbd50fc0d6fda7937b808b0f36ff41a45efa4d0a341a",
+      "entryCount": 20982,
+      "candidateCount": 23069,
+      "manifestBytes": 10668444,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 60,
+        "key": "3c"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-3d",
+      "dictionaryID": "kaikki-shard-3d",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-3d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1729728,
+      "sha256": "506c755f176f7b708cbcb846906822c83d19ee3914a8c0f339bc737eef7d776a",
+      "entryCount": 21368,
+      "candidateCount": 23589,
+      "manifestBytes": 10920608,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 61,
+        "key": "3d"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-3e",
+      "dictionaryID": "kaikki-shard-3e",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-3e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1720021,
+      "sha256": "d5aabcc70e3cbe5974124076119e490b43175c4854f5b867b5d6a4b656b32680",
+      "entryCount": 21288,
+      "candidateCount": 23546,
+      "manifestBytes": 10893070,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 62,
+        "key": "3e"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    },
+    {
+      "id": "dictionary-kaikki-shard-3f",
+      "dictionaryID": "kaikki-shard-3f",
+      "group": "advanced-technical-shard",
+      "file": "open-kaikki-shard-3f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "bytes": 1731210,
+      "sha256": "f23f155c79acdd91af0184df1e9072ed00170df766e60c394da0379d8f0ecde1",
+      "entryCount": 21357,
+      "candidateCount": 23523,
+      "manifestBytes": 10934709,
+      "packageVersion": "2026.08.05-raw.2026.08.28.4c27d202e875.r2",
+      "partition": {
+        "scheme": "normalized-sha256-prefix-v1",
+        "count": 64,
+        "index": 63,
+        "key": "3f"
+      },
+      "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+    }
+  ]
+}
