@@ -1,5 +1,7 @@
 # 来源与许可
 
+CDN 内容镜像为 `https://wordbee-cdn.appyun.io/wordbee/content/<版本>/<文件>`；2026-09-05 已逐一完整下载全部 69 包、126,400,663 字节，实际大小和 SHA256 均匹配清单。缓存 HIT 和 HEAD/Range/304 仅做代表性验证，具体范围见目录 `onlineValidation`；内容下载校验不是完整 Kaikki 的设备导入性能验收。直接源站备选为 `https://img.appyun.io/wordbee/content/<版本>/<文件>`（不是 CDN）。GitHub Release 是独立下载渠道，App API 位于 `https://workbee.appyun.io`（标准 HTTPS 443）。这些是服务或分发地址，不改变下列上游来源、版权许可、原始快照或包文件 SHA256；源站 `originURL` 也不替代版权来源 `sourceURL`。
+
 ## FreeDict / WikDict eng-zho 2025.11.23
 
 - 官方源：https://download.freedict.org/dictionaries/eng-zho/2025.11.23/

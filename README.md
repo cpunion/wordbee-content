@@ -6,7 +6,16 @@
 
 在 [Releases](https://github.com/cpunion/wordbee-content/releases) 下载 `.wordbee` 文件，保存到 iPhone/iPad 的“文件”，再用支持该格式的 WordBee 导入；也可先下载到 Mac，通过 AirDrop 传到设备。导入是后台任务，完成后独立词典出现在设置中的词典管理，可以调整查询顺序或移除。
 
-首批版本：[content-2026.09.05](https://github.com/cpunion/wordbee-content/releases/tag/content-2026.09.05)。[机器可读目录](catalog.json) 为每个包列出 GitHub 与服务器镜像地址、大小、许可、词条数和 SHA256；[校验文件](SHA256SUMS.txt) 与[版本说明](RELEASE_NOTES.md) 随版本提供。仓库中只保存公开文档和目录，包文件通过 Release 附件分发。
+首批版本：[content-2026.09.05](https://github.com/cpunion/wordbee-content/releases/tag/content-2026.09.05)。[机器可读目录](https://github.com/cpunion/wordbee-content/blob/main/catalog.json) 为每个包列出 GitHub、CDN 镜像与源站备选地址、大小、许可、词条数和 SHA256；[校验文件](https://github.com/cpunion/wordbee-content/blob/main/SHA256SUMS.txt) 与[版本说明](https://github.com/cpunion/wordbee-content/blob/main/RELEASE_NOTES.md) 随版本提供。仓库中只保存公开文档和目录，包文件通过 Release 附件分发。
+
+下载渠道和服务分工：
+
+- App API：`https://workbee.appyun.io`（标准 HTTPS 443），不是包下载目录。
+- CDN 镜像：`https://wordbee-cdn.appyun.io/wordbee/content/<版本>/<文件>`，对应目录的 `mirrorURL`。
+- 源站备选：`https://img.appyun.io/wordbee/content/<版本>/<文件>`，对应 `originURL`；这是直接源站，**不是 CDN**。
+- GitHub Release：对应 `githubURL`，与镜像分发同一内容文件。
+
+CDN 于 2026-09-05 完成全部 **69 个内容包、合计 126,400,663 字节**的逐文件公网下载校验：每个完整 GET 的大小和 SHA256 均与发布清单一致，包括基础 5 包和 Kaikki 64 卷。缓存及 HTTP 行为另做代表性验证：原创示例包连续两次 GET 均为 861 字节、SHA256 正确，`MISS → HIT`，第二次未回源，并返回一年 `immutable` 策略；HEAD 返回 200，Range 返回 206 和 16 字节，metadata 条件请求返回 304。目录的 `onlineValidation` 分别记录全量内容校验和这些代表性检查，**不声称每个分卷都验证了缓存 HIT，也不等同于完整 Kaikki 的 SwiftData 导入、设备内存或交互性能验收**。直接源站备选也已验证可用，但不是 CDN。内容文件及其 SHA256 不因分发地址调整而改变。
 
 每个字段在靠前词典中缺失时才向后查找；安装词典不会创建学习计划、词表或改动掌握状态。纯文字包不带发声文件，App 可使用 Apple TTS。下载后可按 Release 附带的 SHA256 校验完整性。
 
@@ -28,15 +37,15 @@ Tatoeba 是用户主动选择的社区例句补充包，不是完整句库或释
 
 ## 进阶技术分发
 
-[Kaikki 英语文本分卷](advanced/kaikki-2026.09.05/RELEASE_NOTES.md) 单独维护 64 个技术包及其来源、校验记录。这不是默认推荐安装目录，也不要求用户手工安装、排序 64 个词典；约 135 万词条的整库 SwiftData 导入、设备内存及交互性能仍需完成 App 验收。基础内容继续使用上面的 4 个独立词典/例句源（Tatoeba 自愿添加），不因大库分发而改变。
+[Kaikki 英语文本分卷](https://github.com/cpunion/wordbee-content/blob/main/advanced/kaikki-2026.09.05/RELEASE_NOTES.md) 单独维护 64 个技术包及其来源、校验记录。这不是默认推荐安装目录，也不要求用户手工安装、排序 64 个词典；约 135 万词条的整库 SwiftData 导入、设备内存及交互性能仍需完成 App 验收。基础内容继续使用上面的 4 个独立词典/例句源（Tatoeba 自愿添加），不因大库分发而改变。
 
-许可合规不等于每条词典内容正确；上游已知问题和使用边界见 [SOURCES.md](SOURCES.md)。
+许可合规不等于每条词典内容正确；上游已知问题和使用边界见 [SOURCES.md](https://github.com/cpunion/wordbee-content/blob/main/SOURCES.md)。
 
 ## 权利边界
 
 - 每个包遵守自己的内容许可，不统一重标为 MIT 或 CC0。
 - 原始版权声明、署名、来源、转换说明随包保留，可在支持的 App 中离线查看。
 - 不发布个人资料、任何真人录音、未清权的聚合词典或原编排权利未明确的赛事词表。
-- 本仓库的原创文档和工具按 [LICENSE](LICENSE) 授权；不覆盖第三方词典、示例包及各自的声明。
+- 本仓库的原创文档和工具按 [LICENSE](https://github.com/cpunion/wordbee-content/blob/main/LICENSE) 授权；不覆盖第三方词典、示例包及各自的声明。
 
-参见 [内容包格式](FORMAT.md)、[来源和许可](SOURCES.md) 及每次 Release 的包清单。官方 App 源码不属于本公开仓库。
+参见 [内容包格式](https://github.com/cpunion/wordbee-content/blob/main/FORMAT.md)、[来源和许可](https://github.com/cpunion/wordbee-content/blob/main/SOURCES.md) 及每次 Release 的包清单。官方 App 源码不属于本公开仓库。

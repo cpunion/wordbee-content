@@ -2,6 +2,37 @@
   "schemaVersion": 1,
   "release": "kaikki-2026.09.05",
   "releaseDate": "2026-09-05",
+  "mirrorStatus": "verified",
+  "verifiedOn": "2026-09-05",
+  "onlineValidation": {
+    "scope": "All 69 packages passed full CDN download size and SHA256 verification; cache HIT and HTTP semantics were checked on representative requests only, not every package.",
+    "sampleURL": "https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/original-three-words.wordbee",
+    "sampleBytes": 861,
+    "sampleSHA256": "9e692974413f3d72333af5c3a828c921647a9cf83539cf58a4efb496bab99d3e",
+    "sequentialGETCacheResults": ["MISS", "HIT"],
+    "secondGETOriginCache": "NOT-REQUESTED",
+    "packageCacheControl": "public, max-age=31536000, immutable",
+    "workerVersion": "ba1c4fd8-4ca0-4550-9892-3ec60ac845fc",
+    "fullPackageIntegrity": {
+      "verifiedOn": "2026-09-05",
+      "releases": ["content-2026.09.05", "kaikki-2026.09.05"],
+      "channel": "CDN",
+      "packageCount": 69,
+      "totalBytes": 126400663,
+      "result": "Every complete GET matched the published package size and SHA256.",
+      "doesNotVerify": "Cache HIT for every package, or complete Kaikki SwiftData import, device memory and app interaction performance."
+    },
+    "representativeHTTPChecks": {
+      "headStatus": 200,
+      "rangeStatus": 206,
+      "rangeBodyBytes": 16,
+      "conditionalMetadataStatus": 304
+    }
+  },
+  "apiBaseURL": "https://workbee.appyun.io",
+  "mirrorBaseURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/",
+  "originBaseURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/",
+  "originRole": "direct-origin-fallback-not-cdn",
   "kind": "advanced-technical-dictionary-series",
   "seriesID": "dictionary-kaikki-sha256-64-v1",
   "format": "wordbee",
@@ -70,7 +101,8 @@
         "key": "00"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-00-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-00-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-00-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-00-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-01",
@@ -90,7 +122,8 @@
         "key": "01"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-01-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-01-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-01-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-01-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-02",
@@ -110,7 +143,8 @@
         "key": "02"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-02-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-02-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-02-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-02-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-03",
@@ -130,7 +164,8 @@
         "key": "03"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-03-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-03-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-03-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-03-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-04",
@@ -150,7 +185,8 @@
         "key": "04"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-04-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-04-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-04-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-04-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-05",
@@ -170,7 +206,8 @@
         "key": "05"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-05-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-05-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-05-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-05-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-06",
@@ -190,7 +227,8 @@
         "key": "06"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-06-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-06-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-06-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-06-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-07",
@@ -210,7 +248,8 @@
         "key": "07"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-07-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-07-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-07-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-07-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-08",
@@ -230,7 +269,8 @@
         "key": "08"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-08-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-08-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-08-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-08-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-09",
@@ -250,7 +290,8 @@
         "key": "09"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-09-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-09-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-09-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-09-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-0a",
@@ -270,7 +311,8 @@
         "key": "0a"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-0b",
@@ -290,7 +332,8 @@
         "key": "0b"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-0c",
@@ -310,7 +353,8 @@
         "key": "0c"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-0d",
@@ -330,7 +374,8 @@
         "key": "0d"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-0e",
@@ -350,7 +395,8 @@
         "key": "0e"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-0f",
@@ -370,7 +416,8 @@
         "key": "0f"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-0f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-0f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-0f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-10",
@@ -390,7 +437,8 @@
         "key": "10"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-10-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-10-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-10-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-10-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-11",
@@ -410,7 +458,8 @@
         "key": "11"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-11-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-11-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-11-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-11-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-12",
@@ -430,7 +479,8 @@
         "key": "12"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-12-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-12-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-12-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-12-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-13",
@@ -450,7 +500,8 @@
         "key": "13"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-13-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-13-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-13-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-13-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-14",
@@ -470,7 +521,8 @@
         "key": "14"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-14-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-14-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-14-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-14-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-15",
@@ -490,7 +542,8 @@
         "key": "15"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-15-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-15-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-15-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-15-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-16",
@@ -510,7 +563,8 @@
         "key": "16"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-16-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-16-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-16-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-16-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-17",
@@ -530,7 +584,8 @@
         "key": "17"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-17-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-17-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-17-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-17-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-18",
@@ -550,7 +605,8 @@
         "key": "18"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-18-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-18-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-18-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-18-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-19",
@@ -570,7 +626,8 @@
         "key": "19"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-19-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-19-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-19-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-19-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-1a",
@@ -590,7 +647,8 @@
         "key": "1a"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-1b",
@@ -610,7 +668,8 @@
         "key": "1b"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-1c",
@@ -630,7 +689,8 @@
         "key": "1c"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-1d",
@@ -650,7 +710,8 @@
         "key": "1d"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-1e",
@@ -670,7 +731,8 @@
         "key": "1e"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-1f",
@@ -690,7 +752,8 @@
         "key": "1f"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-1f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-1f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-1f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-20",
@@ -710,7 +773,8 @@
         "key": "20"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-20-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-20-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-20-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-20-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-21",
@@ -730,7 +794,8 @@
         "key": "21"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-21-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-21-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-21-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-21-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-22",
@@ -750,7 +815,8 @@
         "key": "22"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-22-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-22-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-22-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-22-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-23",
@@ -770,7 +836,8 @@
         "key": "23"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-23-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-23-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-23-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-23-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-24",
@@ -790,7 +857,8 @@
         "key": "24"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-24-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-24-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-24-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-24-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-25",
@@ -810,7 +878,8 @@
         "key": "25"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-25-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-25-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-25-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-25-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-26",
@@ -830,7 +899,8 @@
         "key": "26"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-26-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-26-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-26-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-26-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-27",
@@ -850,7 +920,8 @@
         "key": "27"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-27-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-27-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-27-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-27-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-28",
@@ -870,7 +941,8 @@
         "key": "28"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-28-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-28-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-28-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-28-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-29",
@@ -890,7 +962,8 @@
         "key": "29"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-29-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-29-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-29-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-29-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-2a",
@@ -910,7 +983,8 @@
         "key": "2a"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-2b",
@@ -930,7 +1004,8 @@
         "key": "2b"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-2c",
@@ -950,7 +1025,8 @@
         "key": "2c"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-2d",
@@ -970,7 +1046,8 @@
         "key": "2d"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-2e",
@@ -990,7 +1067,8 @@
         "key": "2e"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-2f",
@@ -1010,7 +1088,8 @@
         "key": "2f"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-2f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-2f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-2f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-30",
@@ -1030,7 +1109,8 @@
         "key": "30"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-30-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-30-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-30-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-30-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-31",
@@ -1050,7 +1130,8 @@
         "key": "31"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-31-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-31-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-31-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-31-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-32",
@@ -1070,7 +1151,8 @@
         "key": "32"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-32-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-32-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-32-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-32-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-33",
@@ -1090,7 +1172,8 @@
         "key": "33"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-33-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-33-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-33-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-33-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-34",
@@ -1110,7 +1193,8 @@
         "key": "34"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-34-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-34-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-34-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-34-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-35",
@@ -1130,7 +1214,8 @@
         "key": "35"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-35-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-35-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-35-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-35-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-36",
@@ -1150,7 +1235,8 @@
         "key": "36"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-36-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-36-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-36-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-36-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-37",
@@ -1170,7 +1256,8 @@
         "key": "37"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-37-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-37-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-37-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-37-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-38",
@@ -1190,7 +1277,8 @@
         "key": "38"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-38-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-38-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-38-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-38-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-39",
@@ -1210,7 +1298,8 @@
         "key": "39"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-39-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-39-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-39-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-39-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-3a",
@@ -1230,7 +1319,8 @@
         "key": "3a"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3a-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-3b",
@@ -1250,7 +1340,8 @@
         "key": "3b"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3b-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-3c",
@@ -1270,7 +1361,8 @@
         "key": "3c"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3c-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-3d",
@@ -1290,7 +1382,8 @@
         "key": "3d"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3d-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-3e",
@@ -1310,7 +1403,8 @@
         "key": "3e"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3e-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     },
     {
       "id": "dictionary-kaikki-shard-3f",
@@ -1330,7 +1424,8 @@
         "key": "3f"
       },
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/kaikki-2026.09.05/open-kaikki-shard-3f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/kaikki-2026.09.05/open-kaikki-shard-3f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/kaikki-2026.09.05/open-kaikki-shard-3f-2026.08.05-raw.2026.08.28.4c27d202e875.r2.wordbee"
     }
   ]
 }

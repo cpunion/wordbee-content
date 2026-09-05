@@ -2,6 +2,37 @@
   "schemaVersion": 1,
   "release": "content-2026.09.05",
   "releaseDate": "2026-09-05",
+  "mirrorStatus": "verified",
+  "verifiedOn": "2026-09-05",
+  "onlineValidation": {
+    "scope": "All 69 packages passed full CDN download size and SHA256 verification; cache HIT and HTTP semantics were checked on representative requests only, not every package.",
+    "sampleURL": "https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/original-three-words.wordbee",
+    "sampleBytes": 861,
+    "sampleSHA256": "9e692974413f3d72333af5c3a828c921647a9cf83539cf58a4efb496bab99d3e",
+    "sequentialGETCacheResults": ["MISS", "HIT"],
+    "secondGETOriginCache": "NOT-REQUESTED",
+    "packageCacheControl": "public, max-age=31536000, immutable",
+    "workerVersion": "ba1c4fd8-4ca0-4550-9892-3ec60ac845fc",
+    "fullPackageIntegrity": {
+      "verifiedOn": "2026-09-05",
+      "releases": ["content-2026.09.05", "kaikki-2026.09.05"],
+      "channel": "CDN",
+      "packageCount": 69,
+      "totalBytes": 126400663,
+      "result": "Every complete GET matched the published package size and SHA256.",
+      "doesNotVerify": "Cache HIT for every package, or complete Kaikki SwiftData import, device memory and app interaction performance."
+    },
+    "representativeHTTPChecks": {
+      "headStatus": 200,
+      "rangeStatus": 206,
+      "rangeBodyBytes": 16,
+      "conditionalMetadataStatus": 304
+    }
+  },
+  "apiBaseURL": "https://workbee.appyun.io",
+  "mirrorBaseURL": "https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/",
+  "originBaseURL": "https://img.appyun.io/wordbee/content/content-2026.09.05/",
+  "originRole": "direct-origin-fallback-not-cdn",
   "format": "wordbee",
   "formatVersion": 1,
   "repositoryURL": "https://github.com/cpunion/wordbee-content",
@@ -29,7 +60,8 @@
       "noticeFiles": ["assets/licenses/1-COPYING"],
       "description": "英汉及英文释义；26,660 个源条目合并为 24,786 个规范词条。无音频。",
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/content-2026.09.05/open-freedict-eng-zho-2025.11.23.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/content-2026.09.05/open-freedict-eng-zho-2025.11.23.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/open-freedict-eng-zho-2025.11.23.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/content-2026.09.05/open-freedict-eng-zho-2025.11.23.r2.wordbee"
     },
     {
       "id": "dictionary-oewn",
@@ -51,7 +83,8 @@
       "noticeFiles": ["assets/licenses/1-OEWN-LICENSE.md", "assets/licenses/2-WNDB_License.txt"],
       "description": "英文释义、例句及部分音标；128,009 个源条目合并为 127,251 个规范词条。无音频。",
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/content-2026.09.05/open-oewn-2025.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/content-2026.09.05/open-oewn-2025.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/open-oewn-2025.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/content-2026.09.05/open-oewn-2025.r2.wordbee"
     },
     {
       "id": "dictionary-cmudict",
@@ -73,7 +106,8 @@
       "noticeFiles": ["assets/licenses/1-CMUdict-LICENSE.txt"],
       "description": "保留 ARPABET 并转换为近似美式宽式 IPA；不推断音节或重音位置。不是真人录音，不含释义。",
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/content-2026.09.05/open-cmudict-74790861.r2.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/content-2026.09.05/open-cmudict-74790861.r2.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/open-cmudict-74790861.r2.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/content-2026.09.05/open-cmudict-74790861.r2.wordbee"
     },
     {
       "id": "dictionary-tatoeba-cc0",
@@ -100,7 +134,8 @@
       "defaultEnabled": false,
       "description": "完整扫描 41,503 行后按每词最多 3 句精选；不是全量句库或释义词典，不做词形归一，不含翻译或音频。社区例句未做儿童适龄审核，用户主动选择后可放在释义词典之后补缺。",
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/content-2026.09.05/open-tatoeba-cc0-2026-09-05.r1.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/content-2026.09.05/open-tatoeba-cc0-2026-09-05.r1.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/open-tatoeba-cc0-2026-09-05.r1.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/content-2026.09.05/open-tatoeba-cc0-2026-09-05.r1.wordbee"
     },
     {
       "id": "wordbee-original-example",
@@ -123,7 +158,8 @@
       "noticeFiles": [],
       "description": "seed、grow、look after 三词原创格式演示；导入会创建花园词表及第一天子词表、配套三词示例资料。不是完整词典，不含录音。",
       "githubURL": "https://github.com/cpunion/wordbee-content/releases/download/content-2026.09.05/original-three-words.wordbee",
-      "mirrorURL": "https://img0.appyun.io:8443/content/content-2026.09.05/original-three-words.wordbee"
+      "mirrorURL": "https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/original-three-words.wordbee",
+      "originURL": "https://img.appyun.io/wordbee/content/content-2026.09.05/original-three-words.wordbee"
     }
   ],
   "advancedPackages": []

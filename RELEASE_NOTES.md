@@ -12,7 +12,9 @@
 
 ## 获取、校验和导入
 
-在 [GitHub Release](https://github.com/cpunion/wordbee-content/releases/tag/content-2026.09.05) 下载对应文件，或使用 [catalog.json](catalog.json) 中的 `mirrorURL` 服务器镜像。两个下载地址的文件大小和 SHA256 应完全相同。
+在 [GitHub Release](https://github.com/cpunion/wordbee-content/releases/tag/content-2026.09.05) 下载对应文件。[catalog.json](https://github.com/cpunion/wordbee-content/releases/download/content-2026.09.05/catalog.json) 中 `mirrorURL` 指向 `https://wordbee-cdn.appyun.io/wordbee/content/content-2026.09.05/` 下对应文件名；`originURL` 保留 `https://img.appyun.io/wordbee/content/content-2026.09.05/` 作为直接源站备选，后者不是 CDN。App API 独立使用 `https://workbee.appyun.io`（标准 HTTPS 443）。
+
+2026-09-05，CDN 上基础 5 包及 Kaikki 64 卷共 **69 包、126,400,663 字节**均已逐一完整下载，实际大小和 SHA256 全部匹配清单。另以原创 861 字节示例包实证 `MISS → HIT`、第二次未回源及一年 `immutable` 策略；代表性 HTTP 检查确认 HEAD 200、Range 206/16 字节、metadata 条件请求 304。目录通过 `verifiedOn` 和 `onlineValidation` 区分全包内容校验与缓存/HTTP 抽样验证；不声称 69 包全部缓存命中，也不把完整 Kaikki 的 SwiftData 导入和设备性能视为已验收。GitHub、CDN 与源站对应文件的大小和 SHA256 应完全相同，包文件不因地址调整而重建。
 
 下载所有 5 个包和 `SHA256SUMS.txt` 到同一个目录后可校验：
 
@@ -36,7 +38,7 @@ sha256sum -c SHA256SUMS.txt
 - Tatoeba：只使用英文 CC0 专用导出。完整扫描 41,503 行后精选 25,012 条独立句子，每个索引词最多 3 句；无释义、翻译、录音，不做词形归一，不是完整句库。用户可主动选择并排在主要词典之后，用来补缺例句。
 - 原创示例：三词释义及例句为原创 CC0 格式演示，不是权威词典。
 
-社区词典及例句均未通过儿童适龄审核；Tatoeba 是可选内容，不默认启用。逐句来源 metadata 保存在包中，不代表 App 已有逐句来源按钮。详细来源和处理损失见 [SOURCES.md](SOURCES.md)。
+社区词典及例句均未通过儿童适龄审核；Tatoeba 是可选内容，不默认启用。逐句来源 metadata 保存在包中，不代表 App 已有逐句来源按钮。详细来源和处理损失见 [SOURCES.md](https://github.com/cpunion/wordbee-content/blob/main/SOURCES.md)。
 
 本次不发布：任何私人录音或资料、未清权的 ECDICT 聚合数据、来源/选词编排权限未明确的赛事词表。Kaikki 大型分卷不属于此基础包目录；仅在单独校验、审查完成后作为进阶内容另行提供，解析器存在不等于数据已经发布。
 
