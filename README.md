@@ -6,6 +6,8 @@
 
 在 [Releases](https://github.com/cpunion/wordbee-content/releases) 下载 `.wordbee` 文件，保存到 iPhone/iPad 的“文件”，再用支持该格式的 WordBee 导入；也可先下载到 Mac，通过 AirDrop 传到设备。导入是后台任务，完成后独立词典出现在设置中的词典管理，可以调整查询顺序或移除。
 
+首批版本：[content-2026.09.05](https://github.com/cpunion/wordbee-content/releases/tag/content-2026.09.05)。[机器可读目录](catalog.json) 为每个包列出 GitHub 与服务器镜像地址、大小、许可、词条数和 SHA256；[校验文件](SHA256SUMS.txt) 与[版本说明](RELEASE_NOTES.md) 随版本提供。仓库中只保存公开文档和目录，包文件通过 Release 附件分发。
+
 每个字段在靠前词典中缺失时才向后查找；安装词典不会创建学习计划、词表或改动掌握状态。纯文字包不带发声文件，App 可使用 Apple TTS。下载后可按 Release 附带的 SHA256 校验完整性。
 
 ## 首批内容
@@ -15,9 +17,12 @@
 | FreeDict / WikDict eng-zho | 英汉释义，24,786 个规范词条 | CC BY-SA 3.0；原 COPYING 在包内 |
 | Open English WordNet 2025 | 英文释义与例句，127,251 个规范词条 | CC BY 4.0 + Princeton WordNet 原通知 |
 | CMUdict | ARPABET 和近似美式宽式 IPA，125,955 个词条 | CMU 原始 BSD-style 条款 |
+| Tatoeba English CC0（可选） | 32,353 个词的精选例句索引，包含 25,012 条独立句子 | CC0 1.0；原许可全文在包内 |
 | 原创三词示例 | 演示词表、短语和独立资料格式 | CC0 1.0 |
 
 CMU 的 IPA 是说明了转换方法的近似转写，不推断音节和重音位置，不是录音，也不等同于经人工校对的完整发音指南。社区词典可能包含成人或冒犯性词汇，未通过儿童适龄内容审核。
+
+Tatoeba 是用户主动选择的社区例句补充包，不是完整句库或释义词典：完整扫描英文 CC0 语料后，每个词最多保留 3 条短句，不做词形归一，不含翻译或录音，未进行儿童适龄审核。建议排在释义词典后面，仅补充缺少的例句。安装它不会产生学习词表；原创三词示例则会创建演示词表及配套示例词典。
 
 后续包以 Release 清单为准；某个上游存在解析器不代表其全部内容已经清权或发布。特别是 Wiktionary 的文字许可不能用于推断引用、音频或图片的许可。
 
