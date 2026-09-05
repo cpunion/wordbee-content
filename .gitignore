@@ -1,0 +1,4 @@
+.DS_Store
+*.wordbee
+dist/
+__pycache__/
